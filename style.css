@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+
+:root {
+  --color-main-gradient: linear-gradient(273deg, #347fe0, #6f65e9 49%, #6931d4);
+  --color-black: #000000;
+  --color-blue-grey: #f6f6fa;
+  --color-border: #4b2091;
+  --border-radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Rye", cursive;
+  background: var(--color-main-gradient);
+  color: var(--color-blue-grey);
+}
+
+/* Util */
+.text-center {
+  text-align: center;
+}
+
+/* Nav9gation */
+
+nav {
+  padding: 2rem;
+  text-align: center;
+}
+
+nav .nav-brand {
+  font-size: xxx-large;
+}
+
+/* Container */
+.container {
+  padding: 1rem 2rem;
+}
+
+.container-center {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+  bottom: 0;
+}
+
+footer .footer-header {
+  font-size: x-large;
+}
+
+/* Inputs */
+
+textarea {
+  overflow: auto;
+  background: var(--color-blue-grey);
+  border: 2px solid var(--color-border);
+  display: block;
+  width: 100%;
+  resize: none;
+  font-size: large;
+  margin: 1rem 0;
+  font-family: inherit;
+  padding: 1rem;
+  outline: none;
+  border-radius: var(--border-radius);
+}
+
+#translate-btn {
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: larger;
+  margin: 1rem 0;
+  cursor: pointer;
+  border: 2px solid var(--color-blue-grey);
+  border-radius: var(--border-radius);
+  background: transparent;
+  color: var(--color-blue-grey);
+}
+
+#translated {
+  border: 1px solid var(--color-border);
+  min-height: 5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--color-blue-grey);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  color: var(--color-black);
+}
